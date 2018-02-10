@@ -23,9 +23,53 @@ a {
 }
 
 
+/*==============
+Header Styles
+==============*/
+header {
+     width: 100%;
+}
+
+header nav {
+     background-color: #252a30;
+}
+
+header section {
+     background-image: url("../images/keyboard_background.jpeg");
+}
+
+
 /*===============
-Section Styles
+Main Styles
 ===============*/
-img {
+main {
+     width: 100%;
+}
+
+main section {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.container {
      width: 90%;
+}
+
+#projects {
+     background-color: #eee;
+}
+
+#projects img {
+     width: 100%;
+}
+
+
+/*==============
+Footer Styles
+==============*/
+footer {
+     width: 100%;
+     background-color: #252a30;
 }
