@@ -1,0 +1,23 @@
+/*=====================
+Global Layout Set-up
+=====================*/
+* {
+     box-sizing: border-box;
+     margin: 0;
+     border: 0;
+     padding: 0;
+     text-align: center;
+}
+
+html,
+body {
+     background-color: white;
+}
+
+
+/*============
+Link Styles
+============*/
+a {
+     text-decoration: none;
+}
