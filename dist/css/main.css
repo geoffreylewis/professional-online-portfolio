@@ -21,3 +21,11 @@ Link Styles
 a {
      text-decoration: none;
 }
+
+
+/*===============
+Section Styles
+===============*/
+img {
+     width: 90%;
+}
