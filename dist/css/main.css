@@ -130,12 +130,21 @@ main p {
 }
 
 #background figure {
-     padding: 20px 0;
+     padding-bottom: 45px;
+}
+
+#background img {
+     width: 50%;
 }
 
 figure h3,
 figure figcaption {
      padding-top: 10px;
+}
+
+#background a {
+     text-decoration: underline;
+     color: blue;
 }
 
 #projects {
@@ -154,6 +163,20 @@ figure figcaption {
 #projects a {
      text-decoration: underline;
      color: blue;
+}
+
+#contact button {
+     margin-top: 10px;
+     margin-bottom: 25px;
+     border: 2px solid black;
+     border-radius: 20px 20px 20px 20px;
+     padding: 15px;
+     background-color: white;
+}
+
+#contact button:hover {
+     background-color: black;
+     color: #2bde2b;
 }
 
 
