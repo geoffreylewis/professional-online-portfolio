@@ -28,14 +28,46 @@ Header Styles
 ==============*/
 header {
      width: 100%;
+     display: flex;
+     flex-direction: column;
 }
 
 header nav {
-     background-color: #252a30;
+     background-color: black;
+}
+
+header li {
+     color: #2bde2b;
+     padding: 5px 0;
+}
+
+header li:first-child {
+     font-size: 1.5rem;
+}
+
+header a {
+     color: #999;
+}
+
+header a:hover {
+     color: white;
+     transition: all 1s;
 }
 
 header section {
      background-image: url("../images/keyboard_background.jpeg");
+}
+
+header img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 2px solid white;
+}
+
+header h1,
+header figcaption {
+     color: white;
 }
 
 
@@ -57,8 +89,17 @@ main section {
      width: 90%;
 }
 
+#background div:nth-child(2) {
+     display: flex;
+     justify-content: space-around;
+}
+
 #projects {
      background-color: #eee;
+}
+
+#projects figure {
+     padding: 10px 0;
 }
 
 #projects img {
