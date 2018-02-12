@@ -80,28 +80,28 @@ header section {
      align-items: center;
 }
 
-header figure {
+.banner figure {
      display: flex;
      flex-direction: column;
      align-items: center;
      margin: 20px 0;
 }
 
-header img {
+.banner img {
      width: 175px;
      height: 175px;
      border-radius: 50%;
-     border: 2px solid white;
+     border: 2px solid #2bde2b;
 }
 
-header h1 {
+.banner h1 {
      margin: 0;
      padding: 10px;
-     color: white;
+     color: #2bde2b;
 }
 
-header figcaption {
-     color: white;
+.banner figcaption {
+     color: #2bde2b;
 }
 
 
@@ -130,7 +130,7 @@ main p {
 }
 
 #background figure {
-     padding-bottom: 45px;
+     padding: 40px 0;
 }
 
 #background img {
@@ -152,7 +152,7 @@ figure figcaption {
 }
 
 #projects figure {
-     padding: 25px 0;
+     padding: 40px 0;
 }
 
 #projects img {
@@ -170,6 +170,7 @@ figure figcaption {
      margin-bottom: 25px;
      border: 2px solid black;
      border-radius: 20px 20px 20px 20px;
+     outline: none;
      padding: 15px;
      background-color: white;
 }
@@ -243,16 +244,16 @@ Styles for larger screens
           min-height: 600px;
      }
 
-     header img {
+     .banner img {
           width: 250px;
           height: 250px;
      }
 
-     header h1 {
+     .banner h1 {
           font-size: 3rem;
      }
 
-     header figcaption {
+     .banner figcaption {
           font-size: 1.5rem;
      }
 
@@ -299,6 +300,69 @@ Styles for larger screens
      ==============*/
      footer h6 {
           font-size: 1.3rem;
+     }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+     /*==============
+     Header Styles
+     ==============*/
+     header ul {
+          max-width: 1250px;
+          margin: 0 auto;
+     }
+
+     .banner {
+          max-width: 1250px;
+     }
+
+     .banner figcaption {
+          font-size: 1.5rem;
+     }
+
+
+     /*===============
+     Main Styles
+     ===============*/
+     .container {
+          max-width: 1250px;
+     }
+
+     #background div:nth-child(2) {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+     }
+
+     #background figure {
+          width: 30%;
+     }
+
+     figure figcaption {
+          font-size: 1.1rem;
+     }
+
+     #projects div:last-child {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     #projects figure {
+          width: 45%;
+     }
+
+     /*==============
+     Footer Styles
+     ==============*/
+     footer div,
+     footer ul {
+          max-width: 1250px;
+          margin: 0 auto;
      }
 
 }
