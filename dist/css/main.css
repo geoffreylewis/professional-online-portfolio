@@ -64,7 +64,7 @@ header a:hover {
 }
 
 header section {
-     height: 400px;
+     min-height: 400px;
      background-image: url("../images/keyboard_background.jpeg");
      display: flex;
      flex-direction: column;
@@ -212,4 +212,93 @@ footer img {
      width: 40px;
      height: 40px;
      margin: 10px 10px 0;
+}
+
+
+/*==========================
+Styles for larger screens
+==========================*/
+@media screen and (min-width: 768px) {
+
+     /*==============
+     Header Styles
+     ==============*/
+     header ul {
+          min-height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     header li {
+          padding: 10px;
+     }
+
+     header li:first-child {
+          width: 60%;
+          text-align: left;
+     }
+
+     .banner {
+          min-height: 600px;
+     }
+
+     header img {
+          width: 250px;
+          height: 250px;
+     }
+
+     header h1 {
+          font-size: 3rem;
+     }
+
+     header figcaption {
+          font-size: 1.5rem;
+     }
+
+
+     /*===============
+     Main Styles
+     ===============*/
+     .container h2 {
+          font-size: 2rem;
+     }
+
+     .container p {
+          font-size: 1.5rem;
+     }
+
+     #background figure {
+          padding: 60px 0;
+     }
+
+     figure h3,
+     figure figcaption {
+          padding-top: 20px;
+     }
+
+     figure h3 {
+          font-size: 1.5rem;
+     }
+
+     figure figcaption {
+          font-size: 1.3rem;
+     }
+
+     #projects figure {
+          padding: 60px 0;
+     }
+
+     #contact button {
+          font-size: 1.5rem;
+     }
+
+
+     /*==============
+     Footer Styles
+     ==============*/
+     footer h6 {
+          font-size: 1.3rem;
+     }
+
 }
