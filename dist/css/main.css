@@ -349,7 +349,7 @@ Styles for larger screens
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          align-items: center;
+          align-items: flex-start;
      }
 
      #projects figure {
