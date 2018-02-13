@@ -89,19 +89,20 @@ header section {
 
 .banner img {
      width: 175px;
-     height: 175px;
-     border-radius: 50%;
-     border: 2px solid #2bde2b;
+     height: 225px;
+     box-shadow: 1px 1px 10px 1px black;
 }
 
 .banner h1 {
      margin: 0;
      padding: 10px;
      color: #2bde2b;
+     background-color: rgba(52, 52, 52, .2);
 }
 
 .banner figcaption {
      color: #2bde2b;
+     background-color: rgba(52, 52, 52, .2);
 }
 
 
@@ -158,6 +159,7 @@ figure figcaption {
 #projects img {
      width: 100%;
      border-radius: 5px 5px 5px 5px;
+     box-shadow: 1px 1px 10px 1px black;
 }
 
 #projects a {
@@ -231,7 +233,7 @@ Styles for larger screens
 
      .banner img {
           width: 250px;
-          height: 250px;
+          height: 333px;
      }
 
      .banner h1 {
