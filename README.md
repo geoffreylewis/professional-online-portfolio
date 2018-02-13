@@ -13,6 +13,7 @@ I finally built my professional portfolio to showcase my experience and skills i
 
 * All of the HTML/CSS code has been successfully run through the W3C HTML/CSS validators; there are no errors.
 * I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/.
+* I wrapped my email address in multiple span tags so as to prevent email scraping/harvesting from spammers.
 
 ## Author(s)
 
