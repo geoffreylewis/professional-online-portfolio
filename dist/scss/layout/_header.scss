@@ -1,0 +1,119 @@
+/*==============
+Header Styles
+==============*/
+header {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     @extend %centered-text;
+}
+
+header nav {
+     width: 100%;
+     background-color: $black;
+     padding: 10px 0;
+}
+
+header ul {
+     @media screen and #{$brk-medium} {
+          min-height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     @media screen and #{$brk-wide} {
+          max-width: 1250px;
+          margin: 0 auto;
+     }
+}
+
+header li {
+     color: $computer-green;
+     padding: 10px 0;
+
+     &:first-child {
+          font-size: 1.3rem;
+     }
+
+     @media screen and #{$brk-medium} {
+          padding: 10px;
+
+          &:first-child {
+               width: 60%;
+               text-align: left;
+          }
+     }
+}
+
+header a {
+     color: $grey;
+
+     &:hover {
+          color: white;
+          transition: all 1s;
+     }
+}
+
+header section {
+     min-height: 400px;
+     background-image: url("#{$path-img}/keyboard_background.jpeg");
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.banner {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     @media screen and #{$brk-medium} {
+          min-height: 600px;
+     }
+
+     @media screen and #{$brk-wide} {
+          max-width: 1250px;
+     }
+}
+
+.banner figure {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 20px 0;
+}
+
+.banner img {
+     width: 175px;
+     height: 225px;
+     @extend %shadow;
+
+     @media screen and #{$brk-medium} {
+          width: 250px;
+          height: 333px;
+     }
+}
+
+.banner h1 {
+     margin: 0;
+     padding: 10px;
+     color: $computer-green;
+     background-color: rgba(52, 52, 52, .2);
+
+     @media screen and #{$brk-medium} {
+          font-size: 3rem;
+     }
+}
+
+.banner figcaption {
+     color: $computer-green;
+     background-color: rgba(52, 52, 52, .2);
+
+     @media screen and #{$brk-medium} {
+          font-size: 1.5rem;
+     }
+}

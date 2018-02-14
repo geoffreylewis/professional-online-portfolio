@@ -1,0 +1,17 @@
+// Descriptive color variables
+$white          : #fff;
+$black          : #000;
+$grey           : #999;
+$light-grey     : #eee;
+$computer-green : #2bde2b;
+$blue           : #00f;
+
+// Font stacks
+$stack-roboto : 'Roboto', sans-serif;
+
+// Asset paths
+$path-img : '../images';
+
+// Media query breakpoints
+$brk-medium : '(min-width: 768px)';
+$brk-wide   : '(min-width: 1024px)';

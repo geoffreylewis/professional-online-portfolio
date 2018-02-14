@@ -1,0 +1,14 @@
+// Center the text
+%centered-text {
+     text-align: center;
+}
+
+// Place shadow behind element
+%shadow {
+     box-shadow: 1px 1px 10px 1px $black;
+}
+
+// Round off the corners
+%round-corners {
+     border-radius: 5px 5px 5px 5px;
+}

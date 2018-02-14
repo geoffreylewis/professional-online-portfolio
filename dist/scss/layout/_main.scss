@@ -1,0 +1,128 @@
+/*===============
+Main Styles
+===============*/
+main {
+     width: 100%;
+     @extend %centered-text;
+}
+
+main section {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px 0;
+}
+
+.container {
+     width: 90%;
+     padding: 25px 0;
+
+     @media screen and #{$brk-wide} {
+          max-width: 1250px;
+     }
+}
+
+.container h2 {
+     @media screen and #{$brk-medium} {
+          font-size: 2rem;
+     }
+}
+
+.container p {
+     padding-top: 10px;
+
+     @media screen and #{$brk-medium} {
+          font-size: 1.5rem;
+     }
+}
+
+#background div:nth-child(2) {
+     @media screen and #{$brk-wide} {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+     }
+}
+
+#background figure {
+     padding: 40px 0;
+
+     @media screen and #{$brk-medium} {
+          padding: 60px 0;
+     }
+
+     @media screen and #{$brk-wide} {
+          width: 30%;
+     }
+}
+
+#background img {
+     width: 50%;
+}
+
+figure h3,
+figure figcaption {
+     padding-top: 10px;
+
+     @media screen and #{$brk-medium} {
+          padding-top: 20px;
+     }
+}
+
+figure h3 {
+     @media screen and #{$brk-medium} {
+          font-size: 1.5rem;
+     }
+}
+
+figure figcaption {
+     @media screen and #{$brk-medium} {
+          font-size: 1.3rem;
+     }
+
+     @media screen and #{$brk-wide} {
+          font-size: 1.1rem;
+     }
+}
+
+#background a {
+     text-decoration: underline;
+     color: $blue;
+}
+
+#projects {
+     background-color: #eee;
+}
+
+#projects div:last-child {
+     @media screen and #{$brk-wide} {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: flex-start;
+     }
+}
+
+#projects figure {
+     padding: 40px 0;
+
+     @media screen and #{$brk-medium} {
+          padding: 60px 0;
+     }
+
+     @media screen and #{$brk-wide} {
+          width: 45%;
+     }
+}
+
+#projects img {
+     width: 100%;
+     @extend %round-corners;
+     @extend %shadow;
+}
+
+#projects a {
+     text-decoration: underline;
+     color: $blue;
+}
