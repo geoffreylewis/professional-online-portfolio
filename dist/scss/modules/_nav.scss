@@ -1,0 +1,48 @@
+/*====================
+Header Navigation Bar
+======================*/
+.nav-bar {
+     width: 100%;
+     background-color: $black;
+}
+
+.nav {
+     @extend %nav-item-disp;
+
+     @media screen and #{$brk-medium} {
+          min-height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     @media screen and #{$brk-wide} {
+          max-width: 1250px;
+          margin: 0 auto;
+     }
+}
+
+.nav__item {
+     @extend %nav-item-disp;
+
+     a {
+          color: $grey;
+
+          &:hover {
+               color: white;
+               transition: all 1s;
+          }
+     }
+}
+
+.nav__item--name {
+     @extend %nav-item-disp;
+
+     color: $computer-green;
+     font-size: 1.3rem;
+
+     @media screen and #{$brk-medium} {
+          width: 60%;
+          text-align: left;
+     }
+}

@@ -2,9 +2,9 @@
 Footer Styles
 ==============*/
 footer {
+     @extend %centered-text;
      width: 100%;
      background-color: $black;
-     @extend %centered-text;
 }
 
 footer section {

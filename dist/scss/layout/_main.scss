@@ -2,8 +2,8 @@
 Main Styles
 ===============*/
 main {
-     width: 100%;
      @extend %centered-text;
+     width: 100%;
 }
 
 main section {
@@ -117,9 +117,9 @@ figure figcaption {
 }
 
 #projects img {
-     width: 100%;
      @extend %round-corners;
      @extend %shadow;
+     width: 100%;
 }
 
 #projects a {
