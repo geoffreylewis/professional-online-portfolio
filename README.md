@@ -13,7 +13,7 @@ I finally built my professional portfolio to showcase my experience and skills i
 ## Additional Notes
 
 * All of the HTML/CSS code has been successfully run through the W3C HTML/CSS validators; there are no errors.
-* I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/.
+* I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/, converted it to a .scss file, and placed it in the "base" folder.
 * I wrapped my email address in multiple span tags so as to prevent email scraping/harvesting from spammers.
 * I ended up converting all of my CSS into Sass; the transition was slow but smooth.
 
