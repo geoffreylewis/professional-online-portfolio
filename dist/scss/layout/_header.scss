@@ -3,6 +3,7 @@ Header Styles
 ==============*/
 header {
      @extend %centered-text;
+
      width: 100%;
      display: flex;
      flex-direction: column;
@@ -55,7 +56,7 @@ header section {
 .banner h1 {
      margin: 0;
      padding: 10px;
-     color: $computer-green;
+     color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
      @media screen and #{$brk-medium} {
@@ -64,7 +65,7 @@ header section {
 }
 
 .banner figcaption {
-     color: $computer-green;
+     color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
      @media screen and #{$brk-medium} {

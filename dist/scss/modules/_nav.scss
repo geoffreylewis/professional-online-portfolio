@@ -38,7 +38,7 @@ Header Navigation Bar
 .nav__item--name {
      @extend %nav-item-disp;
 
-     color: $computer-green;
+     color: $malachite;
      font-size: 1.3rem;
 
      @media screen and #{$brk-medium} {
