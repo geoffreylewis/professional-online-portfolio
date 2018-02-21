@@ -2,14 +2,16 @@
 Header Styles
 ==============*/
 header {
-     @extend %centered-text;
-
      width: 100%;
+     height: 100vh;
      display: flex;
      flex-direction: column;
+     align-items: center;
 }
 
-header section {
+.banner {
+     width: 100%;
+     height: 100%;
      background-image: url("#{$path-img}/keyboard_background.jpeg");
      background-size: cover;
      display: flex;
@@ -18,44 +20,39 @@ header section {
      align-items: center;
 }
 
-.banner {
+.profile {
      width: 90%;
-     min-height: 500px;
+     height: 90%;
      display: flex;
      flex-direction: column;
+     align-items: center;
      justify-content: center;
-     align-items: center;
-
-     @media screen and #{$brk-md} {
-          min-height: 700px;
-     }
-
-     @media screen and #{$brk-lg} {
-          max-width: 1250px;
-     }
 }
 
-.banner figure {
+.profile figure {
+     width: 100%;
+     height: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
-     margin: 20px 0;
+     justify-content: center;
 }
 
-.banner img {
+.profile img {
      @extend %shadow;
-     width: 175px;
-     height: 225px;
+
+     width: 200px;
+     height: 267px;
 
      @media screen and #{$brk-md} {
-          width: 250px;
-          height: 333px;
+          width: 350px;
+          height: 467px;
      }
 }
 
-.banner h1 {
+.profile h1 {
      margin: 0;
-     padding: 10px;
+     padding: 0.5em;
      color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
@@ -64,7 +61,10 @@ header section {
      }
 }
 
-.banner figcaption {
+.profile figcaption {
+     @extend %centered-text;
+
+     padding: 0;
      color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
