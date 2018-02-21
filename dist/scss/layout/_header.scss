@@ -26,11 +26,11 @@ header section {
      justify-content: center;
      align-items: center;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           min-height: 700px;
      }
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           max-width: 1250px;
      }
 }
@@ -47,7 +47,7 @@ header section {
      width: 175px;
      height: 225px;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           width: 250px;
           height: 333px;
      }
@@ -59,7 +59,7 @@ header section {
      color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 3rem;
      }
 }
@@ -68,7 +68,7 @@ header section {
      color: $malachite;
      background-color: rgba(52, 52, 52, .2);
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 1.5rem;
      }
 }

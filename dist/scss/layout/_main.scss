@@ -3,7 +3,7 @@ Main Styles
 ===============*/
 main {
      @extend %centered-text;
-     
+
      width: 100%;
 }
 
@@ -19,13 +19,13 @@ main section {
      width: 90%;
      padding: 25px 0;
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           max-width: 1250px;
      }
 }
 
 .container h2 {
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 2rem;
      }
 }
@@ -33,13 +33,13 @@ main section {
 .container p {
      padding-top: 10px;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 1.5rem;
      }
 }
 
 #background div:nth-child(2) {
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           display: flex;
           justify-content: space-between;
           align-items: baseline;
@@ -49,11 +49,11 @@ main section {
 #background figure {
      padding: 40px 0;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           padding: 60px 0;
      }
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           width: 30%;
      }
 }
@@ -66,23 +66,23 @@ figure h3,
 figure figcaption {
      padding-top: 10px;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           padding-top: 20px;
      }
 }
 
 figure h3 {
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 1.5rem;
      }
 }
 
 figure figcaption {
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 1.3rem;
      }
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           font-size: 1.1rem;
      }
 }
@@ -97,7 +97,7 @@ figure figcaption {
 }
 
 #projects div:last-child {
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
@@ -108,11 +108,11 @@ figure figcaption {
 #projects figure {
      padding: 40px 0;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           padding: 60px 0;
      }
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           width: 45%;
      }
 }

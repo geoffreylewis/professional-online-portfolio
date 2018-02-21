@@ -9,14 +9,14 @@ Header Navigation Bar
 .nav {
      @extend %nav-item-disp;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           min-height: 70px;
           display: flex;
           align-items: center;
           justify-content: space-between;
      }
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           max-width: 1250px;
           margin: 0 auto;
      }
@@ -41,7 +41,7 @@ Header Navigation Bar
      color: $malachite;
      font-size: 1.3rem;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           width: 60%;
           text-align: left;
      }

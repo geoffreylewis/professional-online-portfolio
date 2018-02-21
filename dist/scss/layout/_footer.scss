@@ -13,7 +13,7 @@ footer section {
 }
 
 footer div {
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           max-width: 1250px;
           margin: 0 auto;
      }
@@ -23,7 +23,7 @@ footer h6 {
      color: $malachite;
      font-size: 1rem;
 
-     @media screen and #{$brk-medium} {
+     @media screen and #{$brk-md} {
           font-size: 1.3rem;
      }
 }
@@ -37,7 +37,7 @@ footer ul {
      display: flex;
      justify-content: center;
 
-     @media screen and #{$brk-wide} {
+     @media screen and #{$brk-lg} {
           max-width: 1250px;
           margin: 0 auto;
      }
