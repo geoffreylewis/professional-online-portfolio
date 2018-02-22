@@ -14,7 +14,11 @@ footer {
 }
 
 .owner {
-     padding: 1em 0;
+     padding: 0.25em 0;
+
+     @media screen and #{$brk-md} {
+          padding: 0.5em 0;
+     }
 }
 
 .owner div {
@@ -26,16 +30,19 @@ footer {
 
 .owner h6 {
      color: $malachite;
-     font-size: 1rem;
+     font-size: 0.9em;
 
      @media screen and #{$brk-md} {
-          font-size: 1.3rem;
+          font-size: 1.1em;
      }
 }
 
 .social {
-     padding-top: 5px;
-     padding-bottom: 20px;
+     padding: 0.25em 0;
+
+     @media screen and #{$brk-md} {
+          padding: 0.5em 0;
+     }
 }
 
 .miniNav {
@@ -49,7 +56,11 @@ footer {
 }
 
 .miniNav img {
-     width: 40px;
-     height: 40px;
-     margin: 10px 10px 0;
+     width: 2em;
+     height: 2em;
+     margin: 0 0.25em;
+
+     @media screen and #{$brk-md} {
+          margin: 0 0.5em;
+     }
 }
