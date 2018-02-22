@@ -1,0 +1,40 @@
+/*==============
+Projects Styles
+================*/
+#projects {
+     background-color: $light-grey;
+}
+
+#projects div:last-child {
+     @media screen and #{$brk-lg} {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: flex-start;
+     }
+}
+
+#projects figure {
+     padding: 2.5em 0;
+
+     @media screen and #{$brk-md} {
+          padding: 4em 0;
+     }
+
+     @media screen and #{$brk-lg} {
+          width: 45%;
+     }
+}
+
+#projects img {
+     @extend %round-corners;
+
+     @extend %shadow;
+     
+     width: 100%;
+}
+
+#projects a {
+     text-decoration: underline;
+     color: $blue;
+}

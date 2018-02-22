@@ -1,0 +1,31 @@
+/*================
+Background Styles
+==================*/
+#background div:nth-child(2) {
+     @media screen and #{$brk-lg} {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+     }
+}
+
+#background figure {
+     padding: 2.5em 0;
+
+     @media screen and #{$brk-md} {
+          padding: 4em 0;
+     }
+
+     @media screen and #{$brk-lg} {
+          width: 30%;
+     }
+}
+
+#background img {
+     width: 50%;
+}
+
+#background a {
+     text-decoration: underline;
+     color: $blue;
+}

@@ -9,6 +9,68 @@ header {
      align-items: center;
 }
 
+.nav-bar {
+     width: 100%;
+     height: 25%;
+     background-color: $black;
+
+     @media screen and #{$brk-md} {
+          height: 15%;
+     }
+
+     @media screen and #{$brk-lg} {
+          height: 10%;
+     }
+}
+
+.nav {
+     @extend %nav-item-disp;
+
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+
+     @media screen and #{$brk-md} {
+          flex-direction: row;
+          justify-content: space-between;
+     }
+
+     @media screen and #{$brk-lg} {
+          max-width: 1250px;
+          margin: 0 auto;
+     }
+}
+
+.nav__item {
+     @extend %nav-item-disp;
+
+     font-size: 1em;
+
+     a {
+          color: $grey;
+
+          &:hover {
+               color: white;
+               transition: all 1s;
+          }
+     }
+}
+
+.nav__item--name {
+     @extend %nav-item-disp;
+
+     color: $malachite;
+     font-size: 1.3em;
+
+     @media screen and #{$brk-md} {
+          width: 60%;
+          text-align: left;
+     }
+}
+
 .banner {
      width: 100%;
      height: 100%;
