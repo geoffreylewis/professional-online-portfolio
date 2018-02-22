@@ -7,11 +7,12 @@ $malachite      : #2bde2b;
 $blue           : #00f;
 
 // Font stacks
-$stack-roboto : 'Roboto', sans-serif;
+$stack-roboto   : 'Roboto', sans-serif;
 
 // Asset paths
-$path-img : '../images';
+$path-img       : '../images';
 
 // Media query breakpoints
-$brk-md : '(min-width: 768px)';
-$brk-lg   : '(min-width: 1024px)';
+$brk-md         : '(min-width: 768px)';
+$brk-lg         : '(min-width: 1024px)';
+$brk-land       : '(orientation: landscape)';

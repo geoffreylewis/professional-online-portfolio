@@ -34,7 +34,8 @@ header {
      align-items: center;
      justify-content: space-around;
 
-     @media screen and #{$brk-md} {
+     @media screen and #{$brk-md},
+            screen and #{$brk-land} {
           flex-direction: row;
           justify-content: space-between;
      }
@@ -105,12 +106,29 @@ header {
 .profile img {
      @extend %shadow;
 
-     width: 200px;
-     height: 267px;
+     width: 60%;
+     max-width: 205px !important;
+     height: 60%;
+     max-height: 275px !important;
+
+     @media screen and #{$brk-land} {
+          width: 20%;
+          max-width: 125px !important;
+          max-height: 155px !important;
+     }
 
      @media screen and #{$brk-md} {
-          width: 350px;
-          height: 467px;
+          width: 50%;
+          max-width: 350px !important;
+          height: 60%;
+          max-height: 475px !important;
+     }
+
+     @media screen and #{$brk-lg} {
+          width: 35%;
+          max-width: 325px !important;
+          height: 65%;
+          max-height: 405px !important;
      }
 }
 
