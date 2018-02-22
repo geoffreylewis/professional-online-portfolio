@@ -16,6 +16,7 @@ I finally built my professional portfolio to showcase my experience and skills i
 * I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/, converted it to a .scss file, and placed it in the "base" folder.
 * I wrapped my email address in multiple span tags so as to prevent email scraping/harvesting from spammers.
 * I ended up converting all of my CSS into Sass; the transition was slow but smooth.
+* Originally, a lot of my CSS styles were in px units; I eventually converted almost all of them to percentages or em units.
 
 ## Author(s)
 
