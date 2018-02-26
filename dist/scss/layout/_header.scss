@@ -104,6 +104,7 @@ header {
 }
 
 .profile img {
+     @extend %round-corners;
      @extend %shadow;
 
      width: 60%;
@@ -133,6 +134,8 @@ header {
 }
 
 .profile h1 {
+     @extend %centered-text;
+
      margin: 0;
      padding: 0.5em;
      color: $malachite;
