@@ -1,9 +1,8 @@
 // Variables
 const profilePic = document.querySelector('img');
 const heading = document.querySelector('h1');
-const subHeading = document.querySelector('figcaption');
 let i = 0;
-let firstText = "Hello, I'm Geoff!  Welcome to my online portfolio."
+let firstText = "Hello, I'm Geoff!  Welcome to my online portfolio.";
 let speed = 100;
 
 

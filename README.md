@@ -17,6 +17,9 @@ I finally built my professional portfolio to showcase my experience and skills i
 * I wrapped my email address in multiple span tags so as to prevent email scraping/harvesting from spammers.
 * I ended up converting all of my CSS into Sass; the transition was slow but smooth.
 * Originally, a lot of my CSS styles were in px units; I eventually converted almost all of them to percentages or em units.
+* I added some JavaScript and jQuery to the banner in order to making things a bit more engaging.
+* The version of jQuery that I am using is v3.3.1 from http://jquery.com/download/.
+* All of the JavaScript/jQuery has been successfully run through JSHint; I subsequently performed some cleanup, and now, it only marks the "$" as an undefined variable and mentions some ES6 standards.
 
 ## Author(s)
 
