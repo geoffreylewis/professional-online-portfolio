@@ -145,15 +145,3 @@ header {
           font-size: 3rem;
      }
 }
-
-.profile figcaption {
-     @extend %centered-text;
-
-     padding: 0;
-     color: $malachite;
-     background-color: rgba(52, 52, 52, .2);
-
-     @media screen and #{$brk-md} {
-          font-size: 1.5rem;
-     }
-}
