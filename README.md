@@ -10,11 +10,16 @@ I finally built my professional portfolio to showcase my experience and skills i
 * CSS3
 * Sass
 
-## Additional Notes
+## Version History
 
+**Version 1.0**  
+*2/13/2018*  
 * All of the HTML/CSS code has been successfully run through the W3C HTML/CSS validators; there are no errors.
-* I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/, converted it to a .scss file, and placed it in the "base" folder.
+* I downloaded the normalize.css reset file from https://necolas.github.io/normalize.css/.
 * I wrapped my email address in multiple span tags so as to prevent email scraping/harvesting from spammers.
+
+**Version 1.1**  
+*2/26/2018*  
 * I ended up converting all of my CSS into Sass; the transition was slow but smooth.
 * Originally, a lot of my CSS styles were in px units; I eventually converted almost all of them to percentages or em units.
 * I added some JavaScript and jQuery to the banner in order to making things a bit more engaging.
